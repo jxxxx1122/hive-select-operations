@@ -1,0 +1,8 @@
+
+CREATE TABLE score (
+    sid STRING,
+    cid STRING,
+    sscore INT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t';
